@@ -17,7 +17,7 @@ namespace xadrez
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("  a b c d e f g h");
+            Console.WriteLine("  A B C D E F G H");
         }
         public static void imprimirTabuleiro(Tabuleiro tab, bool[,] posicoesPossiveis)
         {
@@ -42,7 +42,7 @@ namespace xadrez
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("  a b c d e f g h");
+            Console.WriteLine("  A B C D E F G H");
             Console.BackgroundColor = fundoOriginal;
         }
         public static PosicaoXadrez lerPosicaoXadrez()
