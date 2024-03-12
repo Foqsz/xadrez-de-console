@@ -14,25 +14,25 @@ namespace xadrez_console
             Console.WriteLine();
             imprimirPecasCapturadas(partida);
             Console.WriteLine();
-            Console.WriteLine("Turno: " + partida.turno);
+            Console.WriteLine("[XADREZ VV] - Turno: " + partida.turno);
             if (!partida.terminada)
             {
-                Console.WriteLine("Aguardando jogada: " + partida.jogadorAtual);
+                Console.WriteLine("[XADREZ VV] - Aguardando jogada: " + partida.jogadorAtual);
                 if (partida.xeque)
                 {
                     Console.WriteLine("XEQUE!");
                 }
-
             }
             else
             {
                 Console.WriteLine("XEQUEMATE!");
-                Console.WriteLine("Vencedor: " + partida.jogadorAtual);
+                Console.WriteLine("[XADREZ VV] - Vencedor: " + partida.jogadorAtual);
             }
         }
+
         public static void imprimirPecasCapturadas(PartidaDeXadrez partida)
         {
-            Console.WriteLine("Peças capturadas:");
+            Console.WriteLine("[XADREZ VV] - Peças capturadas:");
             Console.Write("Brancas: ");
             imprimirConjunto(partida.pecasCapturadas(Cor.Branca));
             Console.WriteLine();
