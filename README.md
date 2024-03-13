@@ -259,6 +259,6 @@ Neste tópico, serão detalhadas as jogadas especiais implementadas no jogo de X
             }
     ```
 
-Contato:
+## Contato:
 - Email: contatovictorvinicius05@gmail.com
 - LinkedIn: [Victor Vinicius](https://www.linkedin.com/in/victor-vinicius-2a9166255/)
