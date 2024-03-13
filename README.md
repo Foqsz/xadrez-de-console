@@ -23,7 +23,7 @@ Este projeto foi feito durante o curso de C# ministrado por Nélio Alves. O obje
 A impressão do tabuleiro foi uma parte simples, porém essencial, do projeto. Utilizou-se um loop for para criar uma representação visual do tabuleiro no console, composta por um padrão de "-" com espaços entre eles, formando um tabuleiro de oito por oito casas, totalizando sessenta e quatro espaços, conforme o tamanho padrão de um tabuleiro de Xadrez.
 
 ```csharp
-        public static void imprimirTabuleiro(Tabuleiro tab, bool[,] posicoePossiveis)
+        public static void imprimirTabuleiro(Tabuleiro tab, bool[,] posicoesPossiveis)
         {
 
             ConsoleColor fundoOriginal = Console.BackgroundColor;
@@ -34,7 +34,7 @@ A impressão do tabuleiro foi uma parte simples, porém essencial, do projeto. U
                 Console.Write(8 - i + " ");
                 for (int j = 0; j < tab.colunas; j++)
                 {
-                    if (posicoePossiveis[i, j])
+                    if (posicoesPossiveis[i, j])
                     {
                         Console.BackgroundColor = fundoAlterado;
                     }
