@@ -1,5 +1,5 @@
 # Xadrez de Console
-![image](https://github.com/Foqsz/xadrez-de-console/assets/96602671/5b050ad2-01a3-465b-9789-b86c5048db3a)
+![image](https://github.com/Foqsz/xadrez-de-console/assets/96602671/20a935c2-7412-40e7-be7c-9c18a6386ada)
 
 ## Índice
 1. [Sobre o projeto](#sobre-o-projeto)
@@ -12,9 +12,8 @@
 8. [Como foi criada a restrição de movimento para cada peça](#como-foi-criada-a-restrição-de-movimento-para-cada-peça)
 9. [Validar posição de origem](#validar-posição-de-origem)
 10. [Validar posição de destino](#validar-posição-de-destino)
-11. [Jogadas especiais](#jogadas-especiais)
-12. [Baixar o jogo!](#baixar-o-jogo)
-13. [Contato](#contato)
+11. [Jogadas especiais](#jogadas-especiais) 
+12. [Contato](#contato)
 
 ## Sobre o projeto
 Este projeto foi feito durante o curso de C# ministrado por Nélio Alves. O objetivo central é empregar os conhecimentos adquiridos na linguagem C# para desenvolver um jogo de Xadrez funcional que possa ser executado via console. Embora possa parecer uma tarefa simples à primeira vista, a complexidade subjacente a este projeto é significativa.
