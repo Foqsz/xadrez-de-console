@@ -52,8 +52,10 @@ A impressão do tabuleiro foi uma parte simples, porém essencial, do projeto. U
         }
 ```
 Com o resultado final: 
+
 ![image](https://github.com/Foqsz/xadrez-de-console/assets/96602671/6689d137-4517-4ae1-91b1-60aacfc6504d)
 
+<!-- Pular linha -->
 ---
 
 ### A exceção `TabuleiroException`
