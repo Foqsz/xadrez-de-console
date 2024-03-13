@@ -53,7 +53,7 @@ A impressão do tabuleiro foi uma parte simples, porém essencial, do projeto. U
 ```
 Com o resultado final: 
 
-![image](https://github.com/Foqsz/xadrez-de-console/assets/96602671/6689d137-4517-4ae1-91b1-60aacfc6504d)
+![image](https://github.com/Foqsz/xadrez-de-console/assets/96602671/03b08c17-fce7-434d-8007-a4d62facde16)
 
 <!-- Pular linha -->
 ---
@@ -100,6 +100,11 @@ No tabuleiro de Xadrez, existem diferentes tipos de peças, cada uma com suas pr
 - **Peão:** Oito peças de cada cor (branca e preta), representadas pela letra P.
 
 Essas peças compõem o conjunto básico do Xadrez e cada uma desempenha um papel fundamental na estratégia e na dinâmica do jogo.
+
+Imagem do tabuleiro com as peças:
+
+![image](https://github.com/Foqsz/xadrez-de-console/assets/96602671/83be9562-f898-4e11-a456-2d9829a9ae6d)
+<!-- Pular linha -->
 
 ### Método para colocar as peças no tabuleiro
 
